@@ -5,8 +5,34 @@
     font-family: 'Prompt', sans-serif;
 }
 :root {
-    --black: #1a2456;
-    --black2: #080b1b;
+    --dark-bue: #1a2456;
+    --black: #080b1b;
     --orange: #ff8b68;
     --light-gray: #f0efed;
+}
+header {
+    display: flex;
+    place-content: center;
+    width: 100%;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    background: var(--dark-bue);
+    margin: 10px;
+    padding: 5px;
+    place-content: flex-start;
+    position: fixed;
+}
+.logo {
+    width: 170px;
+}
+.icons-header {
+    display: flex;
+    place-items: center;
+}
+.icon {
+    margin: 0 5px;
+    place-self: center;
 }
