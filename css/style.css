@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+:root {
+    --black: #1a2456;
+    --black2: #080b1b;
+    --orange: #ff8b68;
+    --light-gray: #f0efed;
+}
