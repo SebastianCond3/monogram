@@ -124,3 +124,26 @@ header {
         display: inline-block;
     }
 }
+/*medias-main-info-section*/
+@media (min-width: 420px) {
+    .text-container {
+        top: 122px;
+        max-width: 414px;
+    }
+}
+@media (min-width: 576px) {
+    .title {
+        font-size: 42px;
+    }
+}
+@media (min-width: 768px) {
+    .img-container {
+        height: 670px;
+    }
+    .text-container {
+        top: 256px;
+    }
+    .arrow-icon {
+        margin-top: 266px;
+    }
+}
