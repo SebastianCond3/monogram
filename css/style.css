@@ -97,7 +97,7 @@ header {
     top: 340px;
     width: 50px;
 }
-.cards-section1 {
+.cards-section {
     display: flex;
     flex-direction: column;
     place-content: center;
@@ -110,6 +110,12 @@ header {
     margin-top: 20px;
 }
 .img-console {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    grid-template-rows: 40px auto;
+}
+.img-pack {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 100px;
@@ -130,6 +136,11 @@ header {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
 }
+.pack {
+    width: 100%;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
 .name-price {
     display: flex;
     place-content: space-between;
@@ -139,11 +150,12 @@ header {
     color: var(--dark-bue);
     font-size: 18px;
     place-self: center;
+    max-width: 162px;
 }
 .price {
     place-self: center;
     color: #646a8a;
-    font-size: 15px;
+    font-size: 14px;
 }
 .info-text {
     color: #646a8a;
