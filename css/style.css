@@ -107,7 +107,7 @@ header {
 }
 .card {
     width: 280px;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 .img-console {
     width: 100%;
@@ -239,5 +239,48 @@ header {
     }
     .arrow-icon {
         margin-top: 266px;
+    }
+}
+/*media-main-cards-section*/
+@media (min-width: 375px) {
+    .card {
+        width: 330px;
+    }
+}
+@media (min-width: 425px) {
+    .card {
+        width: 380px;
+    }
+}
+@media (min-width: 450px) {
+    .card {
+        width: 410px;
+    }
+}
+@media (min-width: 525px) {
+    .card {
+        width: 480px;
+    }
+    .img-suggestion {
+        height: 370px;
+    }
+    .text-suggestion {
+        top: 38px;
+        font-size: 48px;
+        max-width: 370px;
+    }
+    .suggestion-subtitle {
+        font-size: 28px;
+        margin-top: 46px;
+    }
+}
+@media (min-width: 610px) {
+    .card {
+        width: 560px;
+    }
+}
+@media (min-width: 660px) {
+    .card {
+        width: 660px;
     }
 }
