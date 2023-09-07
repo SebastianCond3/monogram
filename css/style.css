@@ -284,3 +284,80 @@ header {
         width: 660px;
     }
 }
+@media (min-width: 768px) {
+    .console-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .packs-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+    .card-console {
+        width: 335px;
+    }
+    .pack-card {
+        width: 354px;
+    }
+    .pack-name {
+        max-height: 0;
+    }
+    .card {
+        margin: 28px 0;
+    }
+}
+@media (min-width: 876px) {
+    .card-console {
+        width: 400px;
+    }
+    .pack-card {
+        width: 404px;
+    }
+}
+@media (min-width: 992px) {
+    .card-console {
+        width: 460px;
+    }
+    .img-suggestion {
+        height: 526px;
+    }
+    .pack-card {
+        width: 460px;
+    }
+}
+@media (min-width: 1064px) {
+    .card-console, .pack-card {
+        width: 500px;
+    }
+}
+@media (min-width: 1164px) {
+    .card-console, .pack-card {
+        width: 556px;
+    }
+}
+@media (min-width: 1200px) {
+    .packs-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .pack-card {
+        width: 370px;
+    }
+}
+@media (min-width: 1300px) {
+    .pack-card {
+        width: 400px;
+    }
+    .card-console {
+        width: 610px;
+    }
+}
+@media (min-width: 1400px) {
+    .card-console {
+        width: 660px;
+    }
+    .pack-card {
+        width: 440px;
+    }
+}
