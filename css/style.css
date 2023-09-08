@@ -361,3 +361,35 @@ header {
         width: 440px;
     }
 }
+@media (min-width: 1550px) {
+    .card-console {
+        width: 738px;
+    }
+    .pack-card {
+        width: 484px;
+    }
+}
+@media (min-width: 1670px) {
+    .card-console {
+        width: 800px;
+    }
+    .pack-card {
+        width: 530px;
+    }
+}
+@media (min-width: 1790px) {
+    .card-console {
+        width: 854px;
+    }
+    .pack-card {
+        width: 568px;
+    }
+}
+@media (min-width: 1850px) {
+    .card-console {
+        width: 890px;
+    }
+    .pack-card {
+        width: 590px;
+    }
+}
