@@ -189,6 +189,88 @@ header {
     font-size: 15px;
     margin-top: 10px;
 }
+/*footer*/
+footer {
+    display: flex;
+    place-content: center;
+    width: 100%;
+    background-color: #1a2456;
+}
+.footer-container {
+    display: flex;
+    place-content: center;
+    place-items: center;
+    color: #efc2b3;
+    margin-top: 48px;
+    flex-direction: column;
+}
+.top-section {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    margin: 0 15px;
+}
+.subscribe {
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.subtitle-subscribe {
+    font-size: 14px;
+    font-weight: 300;
+}
+.input-button {
+    margin: 10px 0;
+}
+.input {
+    background-color: #1a2456;
+    color: #a2aab5;
+    border: 1px solid #efc2b3;
+}
+.button {
+    width: 80px;
+    background-color: #efc2b3;
+    border: none;
+    border-radius: 10px;
+    height: 28px;
+}
+.icon-footer {
+    width: 24px;
+    height: 24px;
+    background-color: #efc2b3;
+    border-radius: 50%;
+    padding: 4px;
+}
+.middle-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 74px;
+    place-content: center;
+    place-items: center;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.title-list {
+    margin-bottom: 5px;
+}
+.list {
+    place-self: start;
+    line-height: 2;
+}
+.middle-section ul {
+    list-style: none;
+    text-align: start;
+}
+.middle-section ul a {
+    text-decoration: none;
+    color: #efc2b3;
+}
+.name-footer {
+    margin: 30px 0 30px 30px;
+    place-self: start;
+}
 /*medias-header*/
 @media (min-width: 340px) {
     .header-container {
