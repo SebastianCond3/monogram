@@ -153,8 +153,20 @@ header {
 .img-console:hover .alternate-img {
     opacity: 1;
 }
+.card-console:hover .price {
+    display: none;
+}
+.card-console:hover .shop-now {
+    display: inline-block;
+}
 .img-pack:hover .alternate-img {
     opacity: 1;
+}
+.pack-card:hover .price {
+    display: none;
+}
+.pack-card:hover .shop-now {
+    display: inline-block;
 }
 .pack {
     width: 100%;
@@ -165,12 +177,28 @@ header {
     display: flex;
     place-content: space-between;
 }
+.name-price:hover .shop-now {
+    display: inline-block;
+}
+.name-price:hover .price {
+    display: none;
+}
 .name {
     font-weight: 600;
     color: var(--dark-bue);
     font-size: 18px;
     place-self: center;
     max-width: 162px;
+}
+.shop-now {
+    display: none;
+    border: none;
+    border-radius: 15px;
+    background-color: #1a2456;
+    color: white;
+    width: 100px;
+    height: 34px;
+    margin-top: 5px;
 }
 .price {
     place-self: center;
